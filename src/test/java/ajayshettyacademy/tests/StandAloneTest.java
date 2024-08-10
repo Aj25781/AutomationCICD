@@ -32,6 +32,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class StandAloneTest extends BaseTest {
 
+/*AJAY SHARMA IS TESTING CICD HERE */
+
 	@Test(dataProvider = "getData", groups = { "Purchase" })
 	public void submitOrder(HashMap<String,String>input) throws IOException, InterruptedException {
 
